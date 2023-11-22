@@ -737,7 +737,7 @@ int main() {
 
         while (true) {
             cout << "========== TimeTable Generator Menu ==========\n";
-
+            cout<<endl;
             if (role == "hod") {
                 cout << "1. View Timetable\n2. Approve Timetable\n3. View Report\n4. Logout\n";
             } else if (role == "admin") {
